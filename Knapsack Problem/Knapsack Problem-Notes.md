@@ -42,7 +42,7 @@ for num in nums:
 
 
 
-1. 完全背包, 数组中的元素可重复使用,nums放在外循环,target 在内循环.且内虚幻正序:
+2. 完全背包, 数组中的元素可重复使用,nums放在外循环,target 在内循环.且内虚幻正序:
 
    ``` Python
    for num in nums:
@@ -51,12 +51,13 @@ for num in nums:
 
    
 
-2. 排列问题, 需考虑元素之间的顺序, 需将target放在外循环,将nums放在内循环:
+3. 排列问题, 需考虑元素之间的顺序, 需将target放在外循环,将nums放在内循环:
 
    ```python
    for i in rage(1,target+1):
      for num in nums:
    ```
 
-   
+将二位dp用滚动数组表示来达到降维的效果
+
 
